@@ -57,4 +57,4 @@ Typecho的文件管理增强版插件，文件分类、批量整理、文件分�
 ### 使用须知
 - 转换图片格式建议PHP安装ImageMagic扩展，可处理5000万~2亿像素的高像素图片
 - 上传相机拍的照片需要显示EXIF（光圈、快门速度、ISO、设备型号等信息），PHP安装EXIF扩展
-对JPG图片旋转无损保存，服务器终端需要jpegtran工具，在服务器终端执行 `apt install -y libjpeg-turbo-progs`
+- JPG图片旋转需要无损保存，服务器需要jpegtran工具，在服务器终端执行 `apt install -y libjpeg-turbo-progs`
